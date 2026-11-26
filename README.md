@@ -23,7 +23,7 @@
 
 1. 下載或 clone 本專案。
 2. 將 HTML、CSS 與兩個 JS 檔案保留在同一資料夾。
-3. 使用瀏覽器開啟 [Rendering_VFX_Lab_Roadmap.html](Rendering_VFX_Lab_Roadmap.html)。
+3. 使用瀏覽器開啟 [index.html](index.html)。
 4. 從總覽或側邊選單選擇週次，再進入主題。手機版可按左上角的選單按鈕切換週次。
 
 瀏覽學習頁面不需要安裝 Node.js 或執行建置；外部教材需要網路。實作所需工具依主題而定，主要使用 Unity 6／URP，部分練習涉及 Blender、RenderDoc 等工具。請依專案使用的版本選擇相符教材。
@@ -52,7 +52,8 @@
 
 | 檔案 | 用途 |
 |---|---|
-| [Rendering_VFX_Lab_Roadmap.html](Rendering_VFX_Lab_Roadmap.html) | 網站入口與基本結構 |
+| [index.html](index.html) | 網站首頁入口與基本結構 |
+| [Rendering_VFX_Lab_Roadmap.html](Rendering_VFX_Lab_Roadmap.html) | 舊入口，自動轉址到首頁並保留主題路徑 |
 | [roadmap.css](roadmap.css) | 版面、配色與響應式樣式 |
 | [roadmap-data.js](roadmap-data.js) | 週次、主題、教材來源與階段資料 |
 | [roadmap.js](roadmap.js) | 導航、畫面呈現、進度儲存及匯入／匯出 |
